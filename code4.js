@@ -20,7 +20,7 @@ gdjs.CharSelectCode.GDBtn_9595JumpObjects1= [];
 gdjs.CharSelectCode.GDBtn_9595JumpObjects2= [];
 
 
-gdjs.CharSelectCode.asyncCallback18080548 = function (runtimeScene, asyncObjectsList) {
+gdjs.CharSelectCode.asyncCallback19406900 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.CharSelectCode.localVariables);
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "LevelSelect", true);
 }gdjs.CharSelectCode.localVariables.length = 0;
@@ -34,7 +34,7 @@ gdjs.CharSelectCode.eventsList0 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.CharSelectCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.CharSelectCode.asyncCallback18080548(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.CharSelectCode.asyncCallback19406900(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -67,7 +67,7 @@ gdjs.CharSelectCode.eventsList0(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.CharSelectCode.asyncCallback18082380 = function (runtimeScene, asyncObjectsList) {
+};gdjs.CharSelectCode.asyncCallback19408188 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.CharSelectCode.localVariables);
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "LevelSelect", true);
 }gdjs.CharSelectCode.localVariables.length = 0;
@@ -81,7 +81,7 @@ gdjs.CharSelectCode.eventsList2 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.CharSelectCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.CharSelectCode.asyncCallback18082380(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.CharSelectCode.asyncCallback19408188(runtimeScene, asyncObjectsList)));
 }
 }
 

@@ -26,7 +26,7 @@ gdjs.LevelSelectCode.GDBtn_9595JumpObjects1= [];
 gdjs.LevelSelectCode.GDBtn_9595JumpObjects2= [];
 
 
-gdjs.LevelSelectCode.asyncCallback18115860 = function (runtimeScene, asyncObjectsList) {
+gdjs.LevelSelectCode.asyncCallback19437164 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.LevelSelectCode.localVariables);
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Lvl1_Intro", false);
 }gdjs.LevelSelectCode.localVariables.length = 0;
@@ -40,7 +40,7 @@ gdjs.LevelSelectCode.eventsList0 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.LevelSelectCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.LevelSelectCode.asyncCallback18115860(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.LevelSelectCode.asyncCallback19437164(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -72,7 +72,7 @@ gdjs.LevelSelectCode.eventsList0(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.LevelSelectCode.asyncCallback18117116 = function (runtimeScene, asyncObjectsList) {
+};gdjs.LevelSelectCode.asyncCallback19438252 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.LevelSelectCode.localVariables);
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Lvl2_Intro", false);
 }gdjs.LevelSelectCode.localVariables.length = 0;
@@ -86,7 +86,7 @@ gdjs.LevelSelectCode.eventsList2 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.LevelSelectCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.LevelSelectCode.asyncCallback18117116(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.LevelSelectCode.asyncCallback19438252(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -118,7 +118,7 @@ gdjs.LevelSelectCode.eventsList2(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.LevelSelectCode.asyncCallback18118364 = function (runtimeScene, asyncObjectsList) {
+};gdjs.LevelSelectCode.asyncCallback19439348 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.LevelSelectCode.localVariables);
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Lvl3_Intro", false);
 }gdjs.LevelSelectCode.localVariables.length = 0;
@@ -132,7 +132,7 @@ gdjs.LevelSelectCode.eventsList4 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.LevelSelectCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.LevelSelectCode.asyncCallback18118364(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.LevelSelectCode.asyncCallback19439348(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -164,7 +164,7 @@ gdjs.LevelSelectCode.eventsList4(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.LevelSelectCode.asyncCallback18119596 = function (runtimeScene, asyncObjectsList) {
+};gdjs.LevelSelectCode.asyncCallback19440388 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.LevelSelectCode.localVariables);
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Lvl4_Intro", false);
 }gdjs.LevelSelectCode.localVariables.length = 0;
@@ -178,7 +178,7 @@ gdjs.LevelSelectCode.eventsList6 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.LevelSelectCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.LevelSelectCode.asyncCallback18119596(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.LevelSelectCode.asyncCallback19440388(runtimeScene, asyncObjectsList)));
 }
 }
 

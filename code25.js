@@ -16,9 +16,9 @@ gdjs.Lvl4_95ChampionCode.GDBtn_9595JumpObjects1= [];
 gdjs.Lvl4_95ChampionCode.GDBtn_9595JumpObjects2= [];
 
 
-gdjs.Lvl4_95ChampionCode.asyncCallback10819796 = function (runtimeScene, asyncObjectsList) {
+gdjs.Lvl4_95ChampionCode.asyncCallback20893820 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Lvl4_95ChampionCode.localVariables);
-{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Lvl3_Rating", false);
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Lvl4_Rating", false);
 }gdjs.Lvl4_95ChampionCode.localVariables.length = 0;
 }
 gdjs.Lvl4_95ChampionCode.eventsList0 = function(runtimeScene) {
@@ -30,7 +30,7 @@ gdjs.Lvl4_95ChampionCode.eventsList0 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Lvl4_95ChampionCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.Lvl4_95ChampionCode.asyncCallback10819796(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.Lvl4_95ChampionCode.asyncCallback20893820(runtimeScene, asyncObjectsList)));
 }
 }
 

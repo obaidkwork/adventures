@@ -20,7 +20,7 @@ gdjs.Lvl1_95GameOverCode.GDBtn_9595JumpObjects1= [];
 gdjs.Lvl1_95GameOverCode.GDBtn_9595JumpObjects2= [];
 
 
-gdjs.Lvl1_95GameOverCode.asyncCallback16671436 = function (runtimeScene, asyncObjectsList) {
+gdjs.Lvl1_95GameOverCode.asyncCallback19839788 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Lvl1_95GameOverCode.localVariables);
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "MainMenu", false);
 }gdjs.Lvl1_95GameOverCode.localVariables.length = 0;
@@ -34,7 +34,7 @@ gdjs.Lvl1_95GameOverCode.eventsList0 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Lvl1_95GameOverCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.Lvl1_95GameOverCode.asyncCallback16671436(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.Lvl1_95GameOverCode.asyncCallback19839788(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -66,7 +66,7 @@ gdjs.Lvl1_95GameOverCode.eventsList0(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.Lvl1_95GameOverCode.asyncCallback16672644 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Lvl1_95GameOverCode.asyncCallback19840828 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Lvl1_95GameOverCode.localVariables);
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Lvl1_Intro", false);
 }gdjs.Lvl1_95GameOverCode.localVariables.length = 0;
@@ -80,7 +80,7 @@ gdjs.Lvl1_95GameOverCode.eventsList2 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Lvl1_95GameOverCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.Lvl1_95GameOverCode.asyncCallback16672644(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.Lvl1_95GameOverCode.asyncCallback19840828(runtimeScene, asyncObjectsList)));
 }
 }
 

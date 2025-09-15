@@ -222,6 +222,12 @@ gdjs.Level4Code.GDPark_9595AreaObjects3= [];
 gdjs.Level4Code.GDPark_9595AreaObjects4= [];
 gdjs.Level4Code.GDPark_9595AreaObjects5= [];
 gdjs.Level4Code.GDPark_9595AreaObjects6= [];
+gdjs.Level4Code.GDTxt_9595BinosToCollectObjects1= [];
+gdjs.Level4Code.GDTxt_9595BinosToCollectObjects2= [];
+gdjs.Level4Code.GDTxt_9595BinosToCollectObjects3= [];
+gdjs.Level4Code.GDTxt_9595BinosToCollectObjects4= [];
+gdjs.Level4Code.GDTxt_9595BinosToCollectObjects5= [];
+gdjs.Level4Code.GDTxt_9595BinosToCollectObjects6= [];
 gdjs.Level4Code.GDFadeWObjects1= [];
 gdjs.Level4Code.GDFadeWObjects2= [];
 gdjs.Level4Code.GDFadeWObjects3= [];
@@ -261,7 +267,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10750076);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20689044);
 }
 }
 if (isConditionTrue_0) {
@@ -291,7 +297,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10753092);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20690660);
 }
 }
 if (isConditionTrue_0) {
@@ -362,7 +368,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isKeyPressed(runtimeScene, "Up");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10760916);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20695220);
 }
 }
 if (isConditionTrue_0) {
@@ -605,7 +611,7 @@ gdjs.Level4Code.eventsList6 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10779332);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20704740);
 }
 if (isConditionTrue_0) {
 /* Reuse gdjs.Level4Code.GDVehicleObjects2 */
@@ -626,7 +632,7 @@ gdjs.Level4Code.eventsList7 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10781532);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20706468);
 }
 if (isConditionTrue_0) {
 /* Reuse gdjs.Level4Code.GDVehicleObjects1 */
@@ -789,7 +795,7 @@ for (var i = 0, k = 0, l = gdjs.Level4Code.GDBtn_9595JumpObjects1.length;i<l;++i
 gdjs.Level4Code.GDBtn_9595JumpObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10789532);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20711404);
 }
 }
 if (isConditionTrue_0) {
@@ -873,7 +879,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.Level4Code.asyncCallback10794316 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Level4Code.asyncCallback20713828 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Level4Code.localVariables);
 
 { //Subevents
@@ -889,7 +895,7 @@ gdjs.Level4Code.eventsList13 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Level4Code.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(3), (runtimeScene) => (gdjs.Level4Code.asyncCallback10794316(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(3), (runtimeScene) => (gdjs.Level4Code.asyncCallback20713828(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -1376,6 +1382,12 @@ gdjs.Level4Code.GDPark_9595AreaObjects3.length = 0;
 gdjs.Level4Code.GDPark_9595AreaObjects4.length = 0;
 gdjs.Level4Code.GDPark_9595AreaObjects5.length = 0;
 gdjs.Level4Code.GDPark_9595AreaObjects6.length = 0;
+gdjs.Level4Code.GDTxt_9595BinosToCollectObjects1.length = 0;
+gdjs.Level4Code.GDTxt_9595BinosToCollectObjects2.length = 0;
+gdjs.Level4Code.GDTxt_9595BinosToCollectObjects3.length = 0;
+gdjs.Level4Code.GDTxt_9595BinosToCollectObjects4.length = 0;
+gdjs.Level4Code.GDTxt_9595BinosToCollectObjects5.length = 0;
+gdjs.Level4Code.GDTxt_9595BinosToCollectObjects6.length = 0;
 gdjs.Level4Code.GDFadeWObjects1.length = 0;
 gdjs.Level4Code.GDFadeWObjects2.length = 0;
 gdjs.Level4Code.GDFadeWObjects3.length = 0;
@@ -1624,6 +1636,12 @@ gdjs.Level4Code.GDPark_9595AreaObjects3.length = 0;
 gdjs.Level4Code.GDPark_9595AreaObjects4.length = 0;
 gdjs.Level4Code.GDPark_9595AreaObjects5.length = 0;
 gdjs.Level4Code.GDPark_9595AreaObjects6.length = 0;
+gdjs.Level4Code.GDTxt_9595BinosToCollectObjects1.length = 0;
+gdjs.Level4Code.GDTxt_9595BinosToCollectObjects2.length = 0;
+gdjs.Level4Code.GDTxt_9595BinosToCollectObjects3.length = 0;
+gdjs.Level4Code.GDTxt_9595BinosToCollectObjects4.length = 0;
+gdjs.Level4Code.GDTxt_9595BinosToCollectObjects5.length = 0;
+gdjs.Level4Code.GDTxt_9595BinosToCollectObjects6.length = 0;
 gdjs.Level4Code.GDFadeWObjects1.length = 0;
 gdjs.Level4Code.GDFadeWObjects2.length = 0;
 gdjs.Level4Code.GDFadeWObjects3.length = 0;

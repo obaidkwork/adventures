@@ -20,7 +20,7 @@ gdjs.MainMenuCode.GDBtn_9595JumpObjects1= [];
 gdjs.MainMenuCode.GDBtn_9595JumpObjects2= [];
 
 
-gdjs.MainMenuCode.asyncCallback18041268 = function (runtimeScene, asyncObjectsList) {
+gdjs.MainMenuCode.asyncCallback19378444 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.MainMenuCode.localVariables);
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "CharSelect", false);
 }gdjs.MainMenuCode.localVariables.length = 0;
@@ -34,7 +34,7 @@ gdjs.MainMenuCode.eventsList0 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.MainMenuCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.MainMenuCode.asyncCallback18041268(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.MainMenuCode.asyncCallback19378444(runtimeScene, asyncObjectsList)));
 }
 }
 
